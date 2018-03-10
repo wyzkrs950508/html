@@ -1,0 +1,88 @@
+认识JS
+
+1.JS能做啥？
+答:让网页元素动起来。
+
+2.js是啥？
+答：js是运用在客户端的编程语言
+    编程语言：人与计算机沟通的语言
+    客户端：浏览器
+    能面向对象编程但不是面向对象的语言
+    是一门轻量级语言是一门弱类型语言
+    在浏览器上运行的语言（不标准）
+
+3.js的历史。
+答：js是1995年网景公司开发出来的原名livescript
+
+4.js的最初目的
+答:表单元素
+
+5.js现在存在的意义
+答：能做很多事，很强大
+
+6.js的组成
+答：ECMAScript:是欧洲计算机制造联合会制定的一套计算机语言规范
+    DOM：赋予js操作网页元素的能力
+    BOM：赋予js操作浏览器的能力
+
+7.
+
+8.JS的书写位置
+答：直接写在行内
+    写在script标签内
+    写在JS文件中用<script src=""></script>链接
+
+9.变量
+
+10.简单的数据类型
+   数值：number
+   字符串：string
+   布尔：boolean
+   undefinde
+   null
+11.最大值Number.MAX_VALUE
+   无穷大infinity
+       小-infinity
+
+12.布尔类型
+   true
+   false
+
+13.转义字符
+   在需要转义的字符前加反斜杠
+
+
+
+var a=2；
+var a=3；
+console.log(a)//a=3
+let b=2;
+let b=3;
+console.log(b)//
+const c=2;
+const c=3;
+
+
+
+1。number只能转化数字字符串
+2.parseInt从前到后直到不是数字为止
+
+其他类型转换为字符串类型
+     console。log（num。toString（））；
+     没定义的如undefined和null用console。log（toString（num））；
+     
+当加号两边一个为字符串时先将数值转换为字符串进行字符拼接
+
+其他类型转换为布尔类型
+  var num=0；
+  console。log（Boolean（num））；
+0-false
+空-false
+undefined-false
+null-false
+NaN-false
+“0”-true
+console。log（Boolean（“0”））；true
+console。log（Boolean（“   ”））；true
+console。log（Boolean（“true”））；true
+console。log（Boolean（“false”））；true
